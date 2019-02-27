@@ -1,0 +1,28 @@
+<div class="col-md-12" ng-controller="grupoController">
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Novo grupo</h3>
+		</div>
+
+		<div class="panel-body">
+
+			<table id="tabela-contatos" class="table table-striped table-bordered">
+				<tr>
+					<th>Nome</th>
+				</tr>
+				<tr id="tr_contato_{{grupo.id}}" ng-repeat="grupo in grupos">
+					<td>{{grupo.nome}}</td>
+					<td>
+						<span class="glyphicon glyphicon-trash"></span>
+					</td>
+					<td>
+						<span class="glyphicon glyphicon-pencil" ng-click="carregarViewEditar(contato.id)"></span>
+					</td>
+				</tr>
+			</table>
+
+		</div>
+	</div>
+
+</div>
