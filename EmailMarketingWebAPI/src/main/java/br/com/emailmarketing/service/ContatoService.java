@@ -5,7 +5,6 @@ import javax.persistence.PersistenceContext;
 
 import br.com.emailmarketing.entity.Usuario;
 import br.com.emailmarketing.exception.NegocioException;
-import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

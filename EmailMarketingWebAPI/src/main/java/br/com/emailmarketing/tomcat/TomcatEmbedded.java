@@ -6,15 +6,15 @@ import org.apache.catalina.core.StandardContext;
 import org.apache.catalina.startup.Tomcat;
 import org.apache.catalina.webresources.DirResourceSet;
 import org.apache.catalina.webresources.StandardRoot;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 import javax.servlet.ServletException;
 import java.io.File;
 
 public class TomcatEmbedded {
 
-    private static final Logger logger = LoggerFactory.getLogger(TomcatEmbedded.class);
+    //private static final Logger logger = LoggerFactory.getLogger(TomcatEmbedded.class);
 
     private static final String webappDirLocation = "src/main/webapp/";
 
